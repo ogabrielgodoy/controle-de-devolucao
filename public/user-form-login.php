@@ -1,4 +1,4 @@
-<?php require_once('../cronjob.php'); ?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 

@@ -5,8 +5,8 @@ $username = 'root';
 $password = '';
 $dbname = 'fratelli_devolucao';
 
-$sql = mysqli_connect($hostname,$username,$password,$dbname);
+$conn = mysqli_connect($hostname,$username,$password,$dbname);
 
-if(!$sql){
+if(!$conn){
     die("Erro na conexão: " . mysqli_connect_error());
 }
